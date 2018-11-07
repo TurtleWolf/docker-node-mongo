@@ -1,13 +1,14 @@
-# Docker Node MongoDB Example
+# Docker: Node & MongoDB sample
+### (from devops, to production)
 
 > Simple example of a dockerized Node/Mongo app
 
-## Quick Start
-
+## Quick Start  
 ```bash
-# Run in Docker
-docker-compose up
-# use -d flag to run in background
+# assuming NodeJS & Docker are installed locally  
+npm install  
+docker-compose up -d  
+# -d : to run in background
 
 # Tear down
 docker-compose down
@@ -17,4 +18,11 @@ volumes: ['./:/usr/src/app']
 
 # To re-build
 docker-compose build
+```
+
+## Production  
+```bash
+
+# Run in Docker
+docker-compose -f docker-compose-production.yml up -d --build
 ```
