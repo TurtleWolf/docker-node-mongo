@@ -26,3 +26,7 @@ docker-compose build
 # Run in Docker
 docker-compose -f docker-compose-production.yml up -d --build
 ```
+
+[Docker: Dev to Production playlist](https://www.youtube.com/playlist?list=PLETG2T1KvniqIEU_xkadLpugT8nhmNxSR "Easy Docker Dev to Production Setup for Small Projects")   
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")  
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")  
